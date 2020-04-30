@@ -22,13 +22,13 @@
       "@config/*": ["./config/*"],
       "@redux/*": ["./src/client/state/redux/*"],
       "@components/*": ["./src/client/core/components/*"],
-      "@utils/*": ["./src/client/core/utils/*"],
       "@pages/*": ["./src/client/core/pages/*"],
       "@modules/*": ["./src/client/core/modules/*"],
       "@custom-types/*": ["./src/client/ts-types/*"],
       "@mocks/*": ["./src/client/state/mocks/*"],
       "styles/*": ["./src/client/core/styles/*"],
-      "@assets/*": ["./src/client/core/assets/*"]
+      "@assets/*": ["./src/client/core/assets/*"],
+      "@utils/*": ["./src/client/core/utils/*"]
     }
   },
   "include": ["./src"],

@@ -57,7 +57,8 @@ module.exports = {
       '@custom-types': path.resolve(__dirname, '../../src/client/ts-types'),
       '@mocks': path.resolve(__dirname, '../../src/client/state/mocks'),
       styles: path.resolve(__dirname, '../../src/client/core/styles'),
-      '@assets': path.resolve(__dirname, '../../src/client/core/assets')
+      '@assets': path.resolve(__dirname, '../../src/client/core/assets'),
+      '@utils': path.resolve(__dirname, '../../src/client/core/utils')
     },
     extensions: ['*', '.ts', '.tsx', '.js', '.json']
   },

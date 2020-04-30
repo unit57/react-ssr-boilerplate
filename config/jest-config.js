@@ -41,6 +41,7 @@ module.exports = {
     '^@modules(.*)$': '<rootDir>/src/client/modules$1',
     '^@mocks(.*)$': '<rootDir>/src/client/state/mocks$1',
     '^styles(.*)$': '<rootDir>/src/client/core/styles$1',
-    '^@assets(.*)$': '<rootDir>/src/client/core/assets$1'
+    '^@assets(.*)$': '<rootDir>/src/client/core/assets$1',
+    '^@utils(.*)$': '<rootDir>/src/client/core/utils$1'
   }
 };
