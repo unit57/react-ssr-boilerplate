@@ -1,0 +1,24 @@
+@mixin h1 {
+  // Graphik Regular 32px 32px font size Graphik regular38px line height15px Letter Spacing
+}
+@mixin h2 {
+  // Graphik Regular 18px Graphik regular28px line height15px Letter Spacing
+}
+@mixin Body {
+  // Graphik Regular 14px Graphik regular28px line height15px Letter Spacing14px font size Graphik regular25px line height25px Letter Spacing
+}
+@mixin Link {
+  // Graphik Regular 14px 14px font size Graphik regular25px Letter Spacing1px underline
+}
+@mixin Label {
+  // GRAPHIK MEDIUM 11PX 11px font size Graphik Medium50px Letter Spacing
+}
+@mixin List {
+  // Graphik Regular line 1 21px font size Graphik Regular25px letter spacing45 px line height
+}
+@mixin Suggested {
+  // Graphik Regular Italic 14px 14px font size Graphik Regular Italic25px letter spacing25 px line height#999999
+}
+@mixin Post {
+  // Graphik Bold 24px 24px font size Graphik Bold25px letter spacing44 px line height
+}

@@ -1,0 +1,21 @@
+{
+  "app": {
+    "lastActionTimestamp": "2019-11-27T12:24"
+  },
+  "api": {
+    "about": {
+      "about": {
+        "fields": {
+          "title": "About Page ",
+          "articleTitle": "This is the title ",
+          "subTitle": "This is the sub copy "
+        }
+      }
+    }
+  },
+  "user": {
+    "userId": 1574874253,
+    "userEmail": "test@test.com",
+    "userName": "PersonO"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "es6",
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "noEmit": true,
+    "jsx": "react",
+    "types": ["react", "react-dom"],
+    "outDir": "./dist/",
+    "lib": ["es6", "dom", "webworker"],
+    "baseUrl": ".",
+    "paths": {
+      "@config/*": ["./config/*"],
+      "@redux/*": ["./src/client/state/redux/*"],
+      "@components/*": ["./src/client/core/components/*"],
+      "@utils/*": ["./src/client/core/utils/*"],
+      "@pages/*": ["./src/client/core/pages/*"],
+      "@modules/*": ["./src/client/core/modules/*"],
+      "@custom-types/*": ["./src/client/ts-types/*"],
+      "@mocks/*": ["./src/client/state/mocks/*"],
+      "styles/*": ["./src/client/core/styles/*"],
+      "@assets/*": ["./src/client/core/assets/*"]
+    }
+  },
+  "include": ["./src"],
+
+  "exclude": ["node_modules"]
+}

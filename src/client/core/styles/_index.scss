@@ -1,0 +1,18 @@
+// Note: Import ordering important here ↴
+@import './config/vars';
+@import './config/colors';
+@import './extensions';
+@import './utilities';
+@import './functions';
+@import './mixins';
+@import './fonts';
+@import './typography';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  // font-size: 62.5%; // Sets 1rem = 10px
+}

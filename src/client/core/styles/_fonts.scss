@@ -1,0 +1,88 @@
+// =============================================================================
+// Font Face
+// =============================================================================
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../assets/fonts/open-sans/open-sans-v17-latin-300.woff2')
+      format('woff2'),
+    url('../assets/fonts/open-sans/open-sans-v17-latin-300.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  font-family: 'MyFont' !important;
+}
+
+// @font-face {
+//   font-family: 'Graphik Extralight Italic';
+//   src: url(static/fonts/Graphik-ExtralightItalic-Web.woff) format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+//   font-stretch: normal;
+// }
+
+// @font-face {
+//   font-family: 'Graphik Extralight';
+//   src: url(static/fonts/Graphik-Extralight-Web.woff) format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+//   font-stretch: normal;
+// }
+
+// @font-face {
+//   font-family: 'Graphik Light';
+//   src: url(static/fonts/Graphik-Light-Web.woff) format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+//   font-stretch: normal;
+// }
+
+// @font-face {
+//   font-family: 'Graphik Regular';
+//   src: url(static/fonts/Graphik-Regular-Web.woff) format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+//   font-stretch: normal;
+// }
+
+// @font-face {
+//   font-family: 'Graphik Semibold';
+//   src: url(static/fonts/Graphik-Semibold-Web.woff) format('woff');
+//   font-weight: 600;
+//   font-style: bold;
+//   font-stretch: normal;
+// }
+
+// @font-face {
+//   font-family: 'Graphik Regular Italic';
+//   src: url(static/fonts/Graphik-Regular-Italic.woff) format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+//   font-stretch: normal;
+// }
+
+// @mixin Graphik-Extralight {
+//   font-family: 'Graphik Extralight', sans-serif;
+// }
+
+// @mixin Graphik-Extralight-italic {
+//   font-family: 'Graphik Extralight Italic', sans-serif;
+// }
+
+// @mixin Graphik-Light {
+//   font-family: 'Graphik Light', sans-serif;
+// }
+
+// @mixin Graphik-Regular {
+//   font-family: 'Graphik Regular', sans-serif;
+// }
+
+// @mixin Graphik-Regular-Italic {
+//   font-family: 'Graphik Regular Italic', sans-serif;
+// }
+
+// @mixin Graphik-Bold {
+//   font-family: 'Graphik Semibold', Sans-serif;
+// }
